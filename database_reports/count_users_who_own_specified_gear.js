@@ -3,7 +3,7 @@ var authorUuid = 'd904bd62-da08-416b-a816-ba797c9ee265'; //... own data is done
 
 /**
  * database_reports/count_users_who_own_specified_gear.js
- * https://github.com/HabitRPG/habitrpg/pull/3884
+ * https://github.com/HabitRPG/habitica/pull/3884
  */
 
 var thingsOfInterest = {
@@ -119,7 +119,7 @@ function path(obj, path, def) {
  * @param {String} path dot separated
  * @param {*} def default value ( if result undefined )
  * @returns {*}
- * http://stackoverflow.com/a/16190716
+ * https://stackoverflow.com/a/16190716
  * Usage: console.log(path(someObject, pathname));
  */
     for(var i = 0,path = path.split('.'),len = path.length; i < len; i++){
